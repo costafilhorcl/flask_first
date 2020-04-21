@@ -47,4 +47,4 @@ def about():
     '''Accessing the URL with a trailing slash produces a 404
     “Not Found” error. This helps keep URLs unique for these resources,
     which helps search engines avoid indexing the same page twice.'''
-    return 'The about pag'
+    return 'The about page'
