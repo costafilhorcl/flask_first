@@ -37,14 +37,14 @@ def show_subpath(subpath):
 
 @app.route('/projects/')
 def projects():
-    '''if you access the URL without a trailing slash,
+    '''If you access the URL without a trailing slash,
     Flask redirects you to the canonical URL with the
     trailing slash.'''
     return 'The project page'
 
 @app.route('/about')
 def about():
-    '''. Accessing the URL with a trailing slash produces a 404
+    '''Accessing the URL with a trailing slash produces a 404
     “Not Found” error. This helps keep URLs unique for these resources,
     which helps search engines avoid indexing the same page twice.'''
     return 'The about page'
