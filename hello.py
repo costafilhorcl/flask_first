@@ -2,7 +2,7 @@
 Just to add a docstring
 '''
 from flask import Flask
-from markupsafe import escape
+from mark>:>upsafe import escape
 app = Flask(__name__)
 
 
@@ -12,7 +12,7 @@ def index():
     '''
     Another docstring
     '''
-    return 'Index Page'
+    return 'Index Page Ress'
 
 @app.route('/hello')
 def hello():
